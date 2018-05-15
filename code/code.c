@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 int main()
 {
@@ -9,3 +10,23 @@ int i;
 	for(i=0;a[i];i++)	
 	printf("%c\n",a[i]);
 }
+||||||| merged common ancestors
+=======
+#include<stdio.h>
+int main()
+{
+	int i,j;
+	for(i=0;i<5;i++)
+	{
+		for(j=0;j<5;j++)
+		{
+			if(j==i)
+				printf("*");
+			else
+				printf(" ");
+		}
+		printf("\n");
+	}
+}
+//to check rebass comment
+>>>>>>> master
